@@ -1,0 +1,25 @@
+body {
+  /* black page background */
+  background-color: #000000;
+}
+
+/* not instructed to change. changed due to bg color */
+h1 {
+  /* lighter shade silver h1 text color */
+  color: #A3A3A3;
+}
+
+h2 {
+  /* silver h2 text color*/
+ color: #757575;
+}
+
+h3 {
+  /* orange h3 text color */
+  color: #F9622F;
+}
+
+p {
+  /* platnium (shade of white) p text color  */
+  color: #E0E0E0;
+}
