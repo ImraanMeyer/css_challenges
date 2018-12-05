@@ -1,0 +1,91 @@
+body {
+    background-color: #006992;
+    color: #EAF8BF;
+    font-family: Helvetica;
+}
+
+#head {
+    background-color: rgba(236, 165, 0,);
+    width: 100%;
+
+
+}
+
+h1 {
+    text-align: center;
+    font-family: Helvetica, sans-serif;
+}
+
+hr {
+    border-color: #ECA400;
+    width: 80%;
+}
+
+p {
+    text-align: center;
+    font-family: Verdana;
+}
+
+/* ANCHOR TAGS OPENNING*/
+a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #ECA400;
+}
+
+a:link {
+    color: rgb(240, 128, 128);
+}
+
+a:hover {
+    color: rgb(144, 238, 144);
+    font-weight: bold;
+}
+
+a:active {
+    color: rgb(32, 178, 170);
+    
+}
+
+a:visited {
+    color: #ECA400;
+}
+/* CLOSING ANCHOR TAGS */
+
+form div {
+    margin-top: 10%;
+    text-align: center;
+}
+
+#btn {
+    margin-left: 48%;
+    margin-top: 28px;
+}
+
+input#email {
+    color: rebeccapurple;
+    font-family: Verdana, sans-serif;
+    margin-top: ;
+}
+
+
+.intro {
+    margin: 1% 15%;
+    padding: 1% 4%;
+    background-color: whitesmoke;
+    color: black;
+    margin-top: 80px;
+    margin-bottom: 60px;
+    box-shadow: #ECA400;
+}
+
+
+footer {
+    background-color: #5F634F;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    padding: 1px 0px;
+    text-align: center;
+
+}
