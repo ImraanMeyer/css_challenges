@@ -1,0 +1,64 @@
+/* General setup */
+/* Remember to always comment*/
+
+* {
+    box-sizing: border-box;
+}
+    
+body {
+    margin: 0 auto;
+    min-width: 62.5rem;
+    max-width: 87.5rem;
+}
+    
+    /* Layout */
+    
+section {
+    float: left;
+    width: 50%;
+    }
+    
+aside {
+    float: left;
+    width: 30%;
+    }
+    
+nav {
+    float: left;
+    width: 20%;
+}
+    
+footer {
+    clear: both;
+}
+    
+header, section, aside, nav, footer {
+    padding: 1.25rem;
+}
+    
+    /* header and footer */
+    
+header, footer {
+    border-top: 0.3125rem solid #a66;
+    border-bottom: 0.3125rem solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+body {
+    font-family: 'Playfair Display', serif;
+    font-size: 0.875rem;
+    line-height: 1.6em;
+    letter-spacing: 0.035rem;
+}
+
+h1, h2{
+    font-family: 'Quicksand';
+    letter-spacing: 0.30rem;
+}
+
+section {
+    text-indent: 20px;
+}
+
+
