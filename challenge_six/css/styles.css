@@ -87,5 +87,12 @@ footer {
     width: 100%;
     padding: 1px 0px;
     text-align: center;
+}
 
+.empty-content {
+    background-color: rgba(236, 165, 0, 0.486);
+    width:200px;
+    height: 200px; 
+    align-content: center;
+    margin: 1% 44%;
 }
