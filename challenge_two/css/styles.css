@@ -1,0 +1,122 @@
+/* General setup */
+/* Remember to always comment*/
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1400px;
+}
+
+/* Layout */
+
+section {
+  float: left;
+  width: 50%;
+}
+
+aside {
+  float: left;
+  width: 30%;
+}
+
+nav {
+  float: left;
+  width: 20%;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+}
+
+header, section, aside, nav, footer {
+  padding: 20px;
+}
+
+/* header and footer */
+
+header, footer {
+  border-top: 5px solid #a66;
+  border-bottom: 5px solid #a66;
+}
+
+/* WRITE YOUR CODE BELOW HERE */
+
+/* General text styling */
+h1 {
+  font-family: 'Questrial', sans-serif;
+  text-align: center;
+  letter-spacing: 1.25rem;
+}
+
+h2 {
+  font-family: 'Questrial', sans-serif;
+  letter-spacing: 0.50rem;
+}
+
+p {
+  font-family: 'Prata', serif;
+  font-size: 14px;
+  line-height: 1.6em;
+  letter-spacing: 0.2rem;
+  word-spacing: 0.30rem;
+}
+
+.indent {
+  text-indent: 20px;
+}
+
+/* LINKS */
+
+a:hover{
+  color: #a66;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #a66;
+}
+
+a:focus {
+  color: #333;
+  background-color: #a66
+}
+
+a:active {
+  color: cornflowerblue;
+}
+
+/* LISTS */
+
+ul {
+  line-height: 1.6em;
+  letter-spacing: 0.2rem;
+}
+
+li {
+  list-style: circle;
+}
+
+/* NAVIGATION */
+
+nav {
+  float: left;
+  clear: left;
+}
+
+li a {
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #a66;
+}
+
+li a:active {
+  color: #fff;
+  background-color: #333;
+}
