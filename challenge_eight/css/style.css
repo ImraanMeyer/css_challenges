@@ -1,0 +1,19 @@
+.ribbon {
+    width: 100px;
+    background: lightgreen;
+    position: absolute;
+    top: 25px;
+    text-align: center;
+    line-height: 50px;
+    letter-spacing: 1px;
+
+    right: -4px;
+    left: auto;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(46deg);
+    overflow: hidden;
+}
+
+a {  
+    text-transform: uppercase;
+}
